@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>BOTANICAL GARDEN</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="gardens.html">Gardens</a></li>
+        <li><a href="ext.html">Extient Plants</a></li>
+        <li><a href="#">Facts</a></li>
+      </ul><br>
+      
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small></small></h4>
+      <hr>
+      <h2>Lalbagh, Banglore</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane</h5>
+      
+      <p>Lalbagh Botanical Garden or simply Lalbagh, is an botanical garden in Bangalore, <br>
+        India, with an over 200-year history. First planned and laid out during the dalavaiship of Hyder <br>
+        Ali and later managed under numerous British Superintendents before Indian Independence. <br>
+        It was responsible for the introduction and propagation of numerous ornamental plants as well as <br>
+        those of economic value. It also served a social function as a park and recreational space, with a central<br>
+         glass house dating from 1890 which was used for flower shows. In modern times it hosts two flower shows coinciding<br>
+          with the week of Republic Day (26 January) and Independence Day (15 August). As an urban green space along <br>
+          with Cubbon Park, it is also home to numerous wild species of birds and other wildlife. The garden also has a<br>
+           lake adjoining a large rock on which a watchtower had been constructed during the reign of Kempegowda II.</p>
+      <br><br>
+      
+      <img src="lalbagh.jpg">
+
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>

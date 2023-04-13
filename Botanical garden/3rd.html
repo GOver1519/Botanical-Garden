@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>BOTANICAL GARDEN</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="gardens.html">Gardens</a></li>
+        <li><a href="ext.html">Extient Plants</a></li>
+        <li><a href="#">Facts</a></li>
+      </ul><br>
+      
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small></small></h4>
+      <hr>
+      <h2>Lalbagh, Banglore</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane</h5>
+      
+      <p>The Government Botanical Garden is a botanical garden in Udhagamandalam, near Coimbatore (Ooty), <br>
+        Tamil Nadu state, India laid out in 1848. The Gardens, divided into several sections, cover an area of <br>
+        around 55 acres, and lie on the lower slopes of Doddabetta peak.The garden has a terraced layout. It is maintained <br>
+        by the Tamil Nadu Horticulture Department.<br><br>
+        It ascends the slopes of the hill at an elevation of 2250–2500 metres above Mean Sea Level. The garden enjoys <br>
+        a temperate climate, with an average rainfall of 140 cm, the most of which is received during south-west monsoon,<br>
+         with frosty nights from November to February. The maximum and minimum temperatures are 28°C and 0°C respectively.</p>
+      <br><br>
+      
+      <img src="ooty.jpg">
+
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
